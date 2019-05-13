@@ -4,6 +4,7 @@
 <?php  $room = get_field('carousel');?>
         <!-- Projects Slide -->
         <div class="projects-slides owl-carousel">
+
             <!-- Single Project Slide -->
             <div class="single-project-slide active bg-img" style="background-image: url(<?php echo $room['carousel_img_one']?>)">
  

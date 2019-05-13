@@ -1,10 +1,15 @@
 <section class="roberto-testimonials-area section-padding-100-0">
         <div class="container">
             <div class="row align-items-center">
+
+          <?php  $people_say = get_field('testimonial_image');?>
                 <div class="col-12 col-md-6">
                     <div class="testimonial-thumbnail owl-carousel mb-100">
-                        <img src="<?php bloginfo('template_url');?>/img/bg-img/10.jpg" alt="">
-                        <img src="<?php bloginfo('template_url');?>/img/bg-img/11.jpg" alt="">
+                        <img src="<?php echo $people_say['testimonial_image_one']?>" alt="">
+                        <img src="<?php echo $people_say['testimonial_image_two']?>" alt="">
+                        <img src="<?php echo $people_say['testimonial_image_three']?>" alt="">
+                        <img src="<?php echo $people_say['testimonial_image_four']?>" alt="">
+                       
                     </div>
                 </div>
 

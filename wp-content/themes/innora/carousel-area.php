@@ -1,10 +1,12 @@
 <!-- Our Room Area Start -->
 <section class="roberto-rooms-area">
         <div class="rooms-slides owl-carousel">
+
+        <?php  $preview_room = get_field('room_preview');?>
             <!-- Single Room Slide -->
             <div class="single-room-slide d-flex align-items-center">
                 <!-- Thumbnail -->
-                <div class="room-thumbnail h-100 bg-img" style="background-image: url(<?php bloginfo('template_url');?>/img/bg-img/16.jpg);"></div>
+                <div class="room-thumbnail h-100 bg-img" style="background-image: url(<?php echo $preview_room['premium']?>)"></div>
                 
 
                 <!-- Content -->
@@ -24,7 +26,7 @@
             <!-- Single Room Slide -->
             <div class="single-room-slide d-flex align-items-center">
                 <!-- Thumbnail -->
-                <div class="room-thumbnail h-100 bg-img" style="background-image: url(<?php bloginfo('template_url');?>/img/bg-img/17.jpg);"></div>
+                <div class="room-thumbnail h-100 bg-img" style="background-image: url(<?php echo $preview_room['best']?>)"></div>
 
                 <!-- Content -->
                 <div class="room-content">
