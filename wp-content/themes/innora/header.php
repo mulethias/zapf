@@ -72,8 +72,8 @@
 
                    <div class="col-6">
                        <div class="top-header-content">
-                           <a href="#"><i class="icon_phone"></i> <span>(123) 456-789-1230</span></a>
-                           <a href="#"><i class="icon_mail"></i> <span>info.colorlib@gmail.com</span></a>
+                           <a href="#"><i class="icon_phone"></i> <span>1-214 399 0398</span></a>
+                           <a href="#"><i class="icon_mail"></i> <span>booking@3sisterscottages.com</span></a>
                        </div>
                    </div>
 
@@ -102,7 +102,9 @@
                    <nav class="classy-navbar justify-content-between" id="robertoNav">
 
                        <!-- Logo -->
-                       <a class="nav-brand" href="index.php"><img src="<?php bloginfo('template_url');?>/img/core-img/logo.png" alt=""></a>
+
+                      <?php $footer_logo = get_field('about_images_front');?>
+                       <a class="nav-brand" href="index.php"><img src="<?php echo $footer_logo['footer_logo']?>" alt=""></a>
 
                        <!-- Navbar Toggler -->
                        <div class="classy-navbar-toggler">

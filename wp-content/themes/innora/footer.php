@@ -7,12 +7,16 @@
                     <!-- Single Footer Widget Area -->
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-80">
+                        <?php
+                              $footer_logo = get_field('about_images_front');?>
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/logo2.png" alt=""></a>
+                            <a href="#" class="footer-logo">
+                            <img src="<?php echo $footer_logo['footer_logo']?>" alt="logo goes here"></a>
 
-                            <h4>+12 345-678-9999</h4>
-                            <span>Info.colorlib@gmail.com</span>
-                            <span>856 Cordia Extension Apt. 356, Lake Deangeloburgh, South Africa</span>
+                            <h4>1-214 399 0398</h4>
+                            <span>booking@3sisterscottages.com</span>
+                            <span>502 Houston St. Jefferson,
+                                   Texas, TX 75657</span>
                         </div>
                     </div>
 
@@ -44,10 +48,12 @@
 
                             <!-- Footer Nav -->
                             <ul class="footer-nav">
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> About Us</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our Room</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Career</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hvidden="true"></i>Contact Us</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>The Rooms & Suites</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Terms & Conditions</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy Policy</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right" aria-hvidden="true"></i>Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,7 +84,7 @@
                         <!-- Copywrite Text -->
                         <div class="copywrite-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>

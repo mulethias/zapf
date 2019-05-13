@@ -442,7 +442,7 @@ include_once('sliders.php')
                     <div class="col-12 col-md-7">
                         <div class="cta-text mb-50">
                             <h2>Contact us now!</h2>
-                            <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
+                            <h6>Contact 1-214 399 0398 to book directly or for advice</h6>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 text-right">
@@ -457,19 +457,20 @@ include_once('sliders.php')
     <!-- Partner Area Start -->
     <div class="partner-area">
         <div class="container">
+        <?php  $partner_logo = get_field('partner_logo');?>
             <div class="row">
                 <div class="col-12">
                     <div class="partner-logo-content d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="300ms">
                         <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/p1.png" alt=""></a>
+                        <a href="#" class="partner-logo"><img src="<?php echo $partner_logo['partner_logo_one']?>" alt=""></a>
                         <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/p2.png" alt=""></a>
+                        <a href="#" class="partner-logo"><img src="<?php echo $partner_logo['partner_logo_two']?>" alt=""></a>
                         <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/p3.png" alt=""></a>
+                        <a href="#" class="partner-logo"><img src="<?php echo $partner_logo['partner_logo_three']?>" alt=""></a>
                         <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/p4.png" alt=""></a>
+                        <a href="#" class="partner-logo"><img src="<?php echo $partner_logo['partner_logo_four']?>" alt=""></a>
                         <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="<?php bloginfo('template_url');?>/img/core-img/p5.png" alt=""></a>
+                        <a href="#" class="partner-logo"><img src="<?php echo $partner_logo['partner_logo_five']?>" alt=""></a>
                     </div>
                 </div>
             </div>
