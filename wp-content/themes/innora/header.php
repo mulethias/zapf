@@ -8,7 +8,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
    <!-- Title -->
-   <title>Hotel &amp; Resort HTML Template</title>
+   <title>3sisters- Your Private get away</title>
 
    <!-- Favicon --> 
 

@@ -3,6 +3,8 @@
 <?php $hero = get_field('hero');
 include_once('sliders.php')
 ?>
+
+
     <!-- Welcome Area Start -->
    
 
@@ -73,56 +75,10 @@ include_once('sliders.php')
             </div>
         </div>
 
-        <div class="container mt-100">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <!-- Section Heading -->
-                    
-                    <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
-                        <?php  $info = get_field('main_information');?>
-                        <h6><?php echo $info['about_us_front_page_title'];?></h6>
-                        <h2><?php echo $info['about_us_front_page_heading'];?></h2>
-                    </div>
-                    <div class="about-us-content mb-100">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms"><?php echo $info['about_us_front_page_body'];?></h5>
-                        <p class="wow fadeInUp" data-wow-delay="400ms"><?php echo $info['position'];?><span><?php echo $info['name_person_posting'];?></span></p>
-                        <img src="<?php bloginfo('template_url');?>/img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
-                       
-                         </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-us-thumbnail mb-100 wow fadeInUp" data-wow-delay="700ms">
-                    <?php
-    $about_images_front = get_field('about_images_front');
-    $count = 0;
-    
-    
-    foreach($about_images_front as $link);
-       if($link);
-    ?>
-                        <div class="row no-gutters">
-                            <div class="col-6">
-                                <div class="single-thumb">
-                                    <img src="<?php echo $link ?>" alt="">
-                                </div>
-                                <div class="single-thumb">
-                                    <img src="<?php bloginfo('template_url');?>/img/bg-img/14.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="single-thumb">
-                                    <img src="<?php bloginfo('template_url');?>/img/bg-img/15.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Us Area End -->
-
+       
+        <?php 
+        include_once('front-about-us.php')
+       ?>
   
 
     <!-- Service Area Start -->
@@ -419,8 +375,7 @@ include_once('sliders.php')
                 <!-- Section Heading -->
                 <div class="col-12">
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                        <h6>Our Blog</h6>
-                        <h2>Latest News &amp; Event</h2>
+                        <h6>Events</h6> 
                     </div>
                 </div>
             </div>
