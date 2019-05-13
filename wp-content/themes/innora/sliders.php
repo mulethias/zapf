@@ -22,7 +22,8 @@ data-img-url="<?php echo $link ?>">
                                 <div class="welcome-text text-center">
                                     <h6 data-animation="fadeInLeft" data-delay="200ms"><?php echo $hero['small_title'];?></h6>
                                     <h2 data-animation="fadeInLeft" data-delay="500ms"><?php echo $hero['main_title'];?></h2>
-                                    <a href="<?php echo $hero['link'];?>" class="btn roberto-btn btn-2" data-animation="fadeInLeft" data-delay="800ms"><?php echo $hero['link_text'];?></a>
+                                    <a href="<?php echo $hero['link'];?>" class="btn roberto-btn btn-2" 
+                                    data-animation="fadeInLeft" data-delay="800ms"><?php echo $hero['link_text'];?></a>
                                 </div>
                             </div>
                         </div>

@@ -10,12 +10,6 @@ include_once('sliders.php')
 
 
 
-
-
-
-
-
-
     <!-- Welcome Area End -->
 
     <!-- About Us Area Start -->
@@ -59,12 +53,15 @@ include_once('sliders.php')
                             <div class="col-4 col-md-2 col-lg-1">
                                 <label for="children">Children</label>
                                 <select name="children" id="children" class="form-control">
-                                    <option value="01">01</option>
-                                    <option value="02">02</option>
-                                    <option value="03">03</option>
-                                    <option value="04">04</option>
-                                    <option value="05">05</option>
-                                    <option value="06">06</option>
+                                    <option value="01">00</option>
+                                    <option value="02">01</option>
+                                    <option value="03">02</option>
+                                    <option value="04">03</option>
+                                    <option value="05">04</option>
+                                    <option value="06">05</option>
+                                    <option value="06">07</option>
+                                    <option value="06">08</option>
+                                    <option value="06">09</option>
                                 </select>
                             </div>
                             <div class="col-12 col-md-3">
@@ -80,6 +77,7 @@ include_once('sliders.php')
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <!-- Section Heading -->
+                    
                     <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
                         <?php  $info = get_field('main_information');?>
                         <h6><?php echo $info['about_us_front_page_title'];?></h6>
@@ -88,18 +86,25 @@ include_once('sliders.php')
                     <div class="about-us-content mb-100">
                         <h5 class="wow fadeInUp" data-wow-delay="300ms"><?php echo $info['about_us_front_page_body'];?></h5>
                         <p class="wow fadeInUp" data-wow-delay="400ms"><?php echo $info['position'];?><span><?php echo $info['name_person_posting'];?></span></p>
-                        <!-- <img src="<?php bloginfo('template_url');?>/img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms"> -->
+                        <img src="<?php bloginfo('template_url');?>/img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
                        
-                        <img src="<?php '';?>/img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
-                    </div>
+                         </div>
                 </div>
 
                 <div class="col-12 col-lg-6">
                     <div class="about-us-thumbnail mb-100 wow fadeInUp" data-wow-delay="700ms">
+                    <?php
+    $about_images_front = get_field('about_images_front');
+    $count = 0;
+    
+    
+    foreach($about_images_front as $link);
+       if($link);
+    ?>
                         <div class="row no-gutters">
                             <div class="col-6">
                                 <div class="single-thumb">
-                                    <img src="<?php bloginfo('template_url');?>/img/bg-img/13.jpg" alt="">
+                                    <img src="<?php echo $link ?>" alt="">
                                 </div>
                                 <div class="single-thumb">
                                     <img src="<?php bloginfo('template_url');?>/img/bg-img/14.jpg" alt="">
