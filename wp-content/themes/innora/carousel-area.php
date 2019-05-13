@@ -11,13 +11,10 @@
 
                 <!-- Content -->
                 <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Premium King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">400$ <span>/ Day</span></h3>
+                    <h2 data-animation="fadeInUp" data-delay="100ms"><?php echo $preview_room['room_one_preview_title']?></h2>
+                    <h3 data-animation="fadeInUp" data-delay="300ms"><?php echo $preview_room['price']?><span>/ Day</span></h3>
                     <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
-                        <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
-                        <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
+                        <li><span><i class="fa fa-check"></i> <?php echo $preview_room['room_preview_message_one']?></span> <span></span></li> 
                     </ul>
                     <a href="#" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
@@ -30,13 +27,10 @@
 
                 <!-- Content -->
                 <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Best King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">125$ <span>/ Day</span></h3>
+                    <h2 data-animation="fadeInUp" data-delay="100ms"><?php echo $preview_room['room_one_preview_title_two']?></h2>
+                    <h3 data-animation="fadeInUp" data-delay="300ms"><?php echo $preview_room['price_two']?><span>/ Day</span></h3>
                     <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
-                        <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
-                        <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
+                        <li><span><i class="fa fa-check"></i><?php echo $preview_room['room_preview_message_two']?></span> <span></span></li>
                     </ul>
                     <a href="#" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
                 </div>
