@@ -457,7 +457,7 @@ include_once('sliders.php')
     <!-- Partner Area Start -->
     <div class="partner-area">
         <div class="container">
-        <?php  $partner_logo = get_field('partner_logo');?>
+        <?php  $partner_logo = get_field('about_images_front');?>
             <div class="row">
                 <div class="col-12">
                     <div class="partner-logo-content d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="300ms">
