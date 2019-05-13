@@ -78,8 +78,10 @@
             <div class="single-project-slide bg-img" style="background-image: url(<?php echo $room['carousel_img_five']?>)">
                 <!-- Project Text -->
                 <div class="project-content">
-                    <div class="text">
-                    <?php echo $room['carousel_heading_five']?>
+                    <div class="text">  
+                    
+                   <?php echo $room['carousel_heading_five']?>
+
                     </div>
                 </div>
                 <!-- Hover Effects -->
