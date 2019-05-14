@@ -20,7 +20,7 @@
                     <div class="text">
                     <?php echo $room['carousel_message_one']?>
                     </div>
-                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?></a>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
                     <div class="text">
                     <?php echo $room['carousel_message_two']?>
                     </div>
-                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?></a>
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
                     <div class="text">
                     <?php echo $room['carousel_message_three']?>
                     </div>
-                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?> </a>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <div class="text"> 
                     <?php echo $room['carousel_message_four']?>
                     </div>
-                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?></a>
                 </div>
             </div>
 
@@ -90,7 +90,7 @@
                     <div class="text">
                     <?php echo $room['carousel_message_five']?>
                     </div>
-                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="btn project-btn"><?php echo $room['carousel_button']?></a>
                 </div>
             </div>
         </div>

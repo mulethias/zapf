@@ -20,7 +20,6 @@
 <section class="roberto-testimonials-area section-padding-100-0">
         <div class="container">
             <div class="row align-items-center">
-
                 <div class="col-12 col-md-6">
                     <div class="testimonial-thumbnail owl-carousel mb-100">
 
