@@ -7,8 +7,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <!-- Title -->
-   <title>3sisters- Your Private get away</title>
+   <!-- Title --> 
+
+<title>3sisters &mdash; Your private get away in the bosom of nature. </title>
 
    <!-- Favicon --> 
 
@@ -127,7 +128,7 @@
 
                             array(
                                 'theme_location' => 'top-menu',
-                                'menu' => 'nav',
+                                'menu_id' => 'nav',
                                 'container' => 'ul', 
                                 'menu_class' => 'active',
                                 'menu_class' => 'dropdown'
@@ -143,7 +144,7 @@
 
                                <!-- Book Now -->
                                <div class="book-now-btn ml-3 ml-lg-5">
-                                   <a href="#">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                   <a href="#">Book Now</a>
                                </div>
                            </div>
                            <!-- Nav End -->

@@ -13,7 +13,7 @@
                     <div class="about-us-content mb-100">
                         <h5 class="wow fadeInUp" data-wow-delay="300ms"><?php echo $info['about_us_front_page_body'];?></h5>
                         <p class="wow fadeInUp" data-wow-delay="400ms"><?php echo $info['position'];?><span><?php echo $info['name_person_posting'];?></span></p>
-                        <img src="<?php bloginfo('template_url');?>/img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
+                        
                        
                          </div>
                 </div>
