@@ -1,7 +1,37 @@
-<section class="roberto-testimonials-area section-padding-100-0">
+<?php /* Template Name: FilteredDetail */ ?>
+
+<?php 
+        include_once('header.php')
+       ?>
+
+
+<!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <div class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/16.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2 class="page-title">Cottages & Rates</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Cottages & Rates</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Detail Area Start -->
+    <section class="roberto-testimonials-area section-padding-100-0">
         <div class="container">
             <div class="row align-items-center">
-<!-- muk -->
+
           <?php  $people_say = get_field('testimonial_image');?>
                 <div class="col-12 col-md-6">
                     <div class="testimonial-thumbnail owl-carousel mb-100">
@@ -92,3 +122,27 @@
             </div>
         </div>
     </section>
+    <!-- Details Area End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php 
+        include_once('footer.php')
+       ?>
