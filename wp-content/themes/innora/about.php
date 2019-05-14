@@ -1,3 +1,4 @@
+<?php /* Template Name: AboutUs */ ?>
 <!DOCTYPE html>
 <html lang="en">
 
