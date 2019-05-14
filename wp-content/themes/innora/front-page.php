@@ -1,5 +1,12 @@
 <?php  get_header();?>
 
+/*/
+/*.*
+!.git*
+!/wp-content/themes/innora
+
+
+
 <?php $hero = get_field('hero');?>
 <?php include_once('sliders.php')?>
 
