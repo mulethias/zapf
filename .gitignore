@@ -1,6 +1,4 @@
-wp-content/plugins
 
-/*/
-/*.*
-!.git*
-!/wp-content/themes/innora
+wp-content/plugins
+.gitignore
+

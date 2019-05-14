@@ -1,3 +1,18 @@
+<?php
+
+   $post_args = array(
+                'post_type'         => 'post',
+                'status'         => 'publish',
+                'meta_key'         => 'cottages',
+ 
+);
+         
+    $posts     =  get_posts( $post_args);
+?>
+
+
+
+
 <section class="roberto-blog-area section-padding-100-0">
 
         <div class="container">
@@ -7,59 +22,42 @@
                 <!-- Section Heading -->
                 <div class="col-12">
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                    <h2 class="heading" data-aos="fade-up">Cottages &amp; Rates</h2>
-              <p data-aos="fade-up" data-aos-delay="100">Your own private cottage 5 blocks
-                from Down Town Historic Jefferson, Texas. Your private get away in the bosom of nature.</p>
-               </div>
+                        <h1>Cottages</h1> 
                     </div>
                 </div>
             </div>
 
             <div class="row">
                 <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
+
+
+                <?php $count = 0; while($count <= count($posts)):  
+                    $row =  get_field('cottages',$posts[$count++]->ID);   
+                   $photo = $row['photo'];
+                   $name = $row['name'];
+                   $descrip = $row['description'];
+                   $price = $row['price'];
+                    ?>
+
+
+                        <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <a href="#" class="post-thumbnail"><img src="<?php echo $event['image_one']?>" alt=""></a>
+                        <a href="#" class="post-thumbnail"><img src="<?php echo $photo?>" alt=""></a>
                         <!-- Post Meta -->
                         <div class="post-meta">
-                            <a href="#" class="post-date"><?php echo $event['event_one_date']?></a>
-                            <a href="#" class="post-catagory"><?php echo $event['post_catagory']?></a>
+                            <a href="#" class="post-catagory"><?php echo $name?></a>
+                            <a href="#" class="post-date"><?php echo $price?></a>
                         </div>
                         <!-- Post Title -->
-                        <a href="#" class="post-title"><?php echo $event['post_title']?></a>
-                        <p><?php echo $event['event_message_one']?></p> 
+                        <p><?php echo $descrip?></p> 
                     </div>
                 </div>
+                    
 
-                <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="500ms">
-                        <a href="#" class="post-thumbnail"><img src="<?php echo $event['image_two']?>" alt=""></a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a href="#" class="post-date"><?php echo $event['event_two_date']?></a>
-                            <a href="#" class="post-catagory"><?php echo $event['post_catagory_one']?></a>
-                        </div>
-                        <!-- Post Title -->
-                        <a href="#" class="post-title"><?php echo $event['post_title_one']?></a>
-                        <?php echo $event['event_message_two']?> 
-                    </div>
-                </div>
-
-                <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="700ms">
-                        <a href="#" class="post-thumbnail"><img src="<?php echo $event['image_three']?>" alt=""></a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a href="#" class="post-date"><?php echo $event['event_three_date']?></a>
-                            <a href="#" class="post-catagory"><?php echo $event['post_catagory_two']?></a>
-                        </div>
-                        <!-- Post Title -->
-                        <a href="#" class="post-title"><?php echo $event['post_title_two']?></a>
-                        <p><?php echo $event['event_message_three']?></p> 
-                    </div>
-                </div>
+<?php  endwhile;?>
+             
+             
+        
 
             </div>
         </div>

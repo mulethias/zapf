@@ -139,12 +139,12 @@
 
                                <!-- Search -->
                                <div class="search-btn ml-4">
-                                   <i class="fa fa-search" aria-hidden="true"></i>
+                                   <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
                                </div>
 
                                <!-- Book Now -->
                                <div class="book-now-btn ml-3 ml-lg-5">
-                                   <a href="#">Book Now</a>
+                                   <a onclick='alert("Please call us on: 1-214 399 0398 for booking")' title="Please call us on: 1-214 399 0398 for booking" href="#">Book Now</a>
                                </div>
                            </div>
                            <!-- Nav End -->
