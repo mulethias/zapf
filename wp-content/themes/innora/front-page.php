@@ -1,9 +1,7 @@
 <?php  get_header();?>
 
-<?php $hero = get_field('hero');
-include_once('sliders.php')
-?>
-
+<?php $hero = get_field('hero');?>
+<?php include_once('sliders.php')?>
 
     <!-- Welcome Area Start -->
    
@@ -79,7 +77,9 @@ include_once('sliders.php')
         <?php 
         include_once('front-about-us.php')
        ?>
-  
+       <?php include_once('team.php')?> 
+       <?php include_once('cottages.php')?>
+       <?php include_once('property.php')?>
 
     <!-- Service Area Start -->
     <div class="roberto-service-area">

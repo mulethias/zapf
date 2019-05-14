@@ -25,7 +25,7 @@
                         <!-- Post Title -->
                         <a href="#" class="post-title"><?php echo $event['post_title']?></a>
                         <p><?php echo $event['event_message_one']?></p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                         
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@
                         <!-- Post Title -->
                         <a href="#" class="post-title"><?php echo $event['post_title_one']?></a>
                         <?php echo $event['event_message_two']?>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                         
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                         <!-- Post Title -->
                         <a href="#" class="post-title"><?php echo $event['post_title_two']?></a>
                         <p><?php echo $event['event_message_three']?></p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                         
                     </div>
                 </div>
 
