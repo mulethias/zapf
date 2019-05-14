@@ -59,7 +59,8 @@
                     <!-- Section Heading -->
                     <div class="section-heading text-center white wow fadeInUp" data-wow-delay="100ms">
                         <h6>Ultimate Solutions</h6>
-                        <h2>Our Hotel &amp; Room</h2>
+                        <h2>Cottages  &amp;  Rates</h2>
+                       
                     </div>
                     <div class="video-content-area mt-100 wow fadeInUp" data-wow-delay="500ms">
                         <a href="https://www.youtube.com/watch?v=Ldd8yjjo6jA" class="video-play-btn"><i class="fa fa-play"></i></a>
@@ -78,7 +79,7 @@
                     <!-- Section Heading -->
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
                         <h6>Ultimate Solutions</h6>
-                        <h2>Our Hotel &amp; Room</h2>
+                        <h2>Cottages &amp; Rates</h2>
                     </div>
                 </div>
             </div>

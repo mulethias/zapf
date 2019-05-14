@@ -1,7 +1,11 @@
 <section class="roberto-testimonials-area section-padding-100-0">
         <div class="container">
             <div class="row align-items-center">
-<!-- muk -->
+            <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h1>Our Property</h1> 
+                    </div>
+                </div>
           <?php  $people_say = get_field('testimonial_image');?>
                 <div class="col-12 col-md-6">
                     <div class="testimonial-thumbnail owl-carousel mb-100">

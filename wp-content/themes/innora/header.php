@@ -19,7 +19,7 @@
 
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css"> 
 
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style2.css">
 
