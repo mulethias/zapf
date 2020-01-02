@@ -112,7 +112,7 @@ class User_Reporter extends Base_Reporter {
 	 */
 	public function get_agent() {
 		return [
-			'value' => esc_html( $_SERVER['HTTP_USER_AGENT'] ),
+			'value' => $_SERVER['HTTP_USER_AGENT'],
 		];
 	}
 }
